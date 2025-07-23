@@ -80,85 +80,26 @@ export const assets = {
 
 export const workData = [
   {
-    title: "MERN Web App",
-    topic: "Green-Aqua",
+    title: "Horizon Homes",
+    topic: "Full-Stack Real Estate Platform",
     bgImage: "/work-1.png",
     description:
-      "This is a project made to learn the latest languages by building an app.",
-    skills: ["Node js", "Javascript", "React", "MongoDB"],
-    demo: "https://www.example.com",
-    source: "https://github.com/Gayasri72/Grren-Aqua-Land",
+      "Horizon Homes is a modern full-stack real estate web application built with the MERN stack. It streamlines property browsing and management with advanced search filters, Google OAuth integration, and a secure authentication system. Redux Toolkit is used for efficient state management, ensuring a smooth user experience across the platform. This project highlights my ability to develop scalable, responsive, and user-centric applications from scratch",
+    skills: [
+      "Node js",
+      "React",
+      "Express.js",
+      "MongoDB",
+      "Redux Toolkit",
+      "Firebase Auth",
+      "Google OAuth",
+      "Tailwind CSS",
+      "Render",
+    ],
+    demo: "https://horizon-homes-0kuz.onrender.com/",
+    source: "https://github.com/NisalMallawaarachchi/horizon-homes",
   },
-  {
-    title: "Node js",
-    topic: "Natours",
-    bgImage: "/work-2.png",
-    description:
-      "This is a project made to learn the latest languages by building an app.",
-    skills: ["Javascript", "Css", "Node", "MongoDB"],
-    demo: "https://www.example.com",
-    source: "https://github.com/Gayasri72/my-Portfolio.git",
-  },
-  {
-    title: "MERN Web App",
-    topic: "Travalia",
-    bgImage: "/work-3.png",
-    description:
-      "This is a project made to for the 3rd year 2nd semester university group project.my contribution is mention in the readme file.",
-    skills: ["Node js", "Javascript", "React", "MongoDB"],
-    demo: "https://www.example.com",
-    source: "https://github.com/Gayasri72/Travalia.git",
-  },
-  {
-    title: "Javascript App",
-    topic: "Forkify",
-    bgImage: "/work-4.png",
-    description: "This is a project made to learn the javascript.",
-    skills: ["Javascript", "Html", "Css"],
-    demo: "https://www.example.com",
-    source: "https://github.com/Gayasri72/Forkify-recipe-app",
-  },
-  {
-    title: "SpringBoot Web App",
-    topic: "Web Design",
-    bgImage: "/work-1.png",
-    description:
-      "This is a project made to learn the latest languages by building an app.",
-    skills: ["React", "Css", "Node"],
-    demo: "https://www.example.com",
-    source: "https://github.com/Gayasri72/my-Portfolio.git",
-  },
-  {
-    title: "MERN Web App",
-    topic: "BoardMe",
-    bgImage: "/work-1.png",
-    description:
-      "This is a project made to for the 2nd year 2nd semester university group project.my contribution is mention in the readme file.",
-    skills: ["Node js", "Javascript", "React", "MongoDB"],
-    demo: "https://www.example.com",
-    source: "https://github.com/Gayasri72/BoardMe-Javascript.git",
-  },
-  {
-    title: "Authentication App",
-    topic: "NeoNest",
-    bgImage: "/work-1.png",
-    description:
-      "This is a project made to learn authentication system of the mern web app using jwt.",
-    skills: ["Node js", "Javascript", "React", "MongoDB"],
-    demo: "https://neonest-flame.vercel.app",
-    source: "https://github.com/Gayasri72/AuthTest1.git",
-  },
-  {
-    title: "Machine Learning",
-    topic: "Web app",
-    bgImage: "/work-2.png",
-    description:
-      "This is a project made to learn the latest languages by building an app.",
-    skills: ["React", "Css", "Node"],
-    demo: "https://www.example.com",
-    source:
-      "https://github.com/Gayasri72/machine-learning-project-1-Laptop-price-predictor.git",
-  },
+  
 ];
 
 export const serviceData = [
@@ -208,7 +149,7 @@ export const infoList = [
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
-    description: "Completed over 10 projects",
+    description: "Completed over 10+ projects",
   },
 ];
 
@@ -222,28 +163,10 @@ export const toolsData = [
 
 export const blogsData = [
   {
-    title: "The javascript Engine and Runtime",
+    title: "You Don’t Need to Be a Genius to Code",
     description:
-      "A deep dive into the world of React Hooks and how to use them effectively.",
-    date: "2025-02-26",
-    link: "https://medium.com/@gayasripethum1/the-javascript-engine-and-runtime-0ae550648ec6",
-  },
-  {
-    title: "What is Express js",
-    description: "Comparing CSS Grid and Flexbox for layout design.",
-    date: "2025-01-10",
-    link: "https://medium.com/@gayasripethum1/what-is-express-js-460051917fc6",
-  },
-  {
-    title: "Data structures in programming",
-    description: "Exploring the new features introduced in JavaScript ES2023.",
-    date: "2025-01-06",
-    link: "https://medium.com/@gayasripethum1/data-structures-in-programming-9db2052c2f01",
-  },
-  {
-    title: "A high-level overview of javascript",
-    description: "Exploring the new features introduced in JavaScript ES2023.",
-    date: "2025-01-03",
-    link: "https://medium.com/@gayasripethum1/a-high-level-overview-of-javascript-d73fdba9828d",
+      "This article kicks off the 'Mind Over Syntax' series, breaking the myth that coding is only for the naturally gifted. I share my personal journey and how the right mindset—not talent—is the real key to becoming a developer.",
+    date: "2025-07-22",
+    link: "https://nisal.hashnode.dev/series/mind-over-syntax",
   },
 ];

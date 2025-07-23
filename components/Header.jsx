@@ -1,6 +1,7 @@
 import { assets } from "@/assets/assets";
 import Image from "next/image";
 import { motion } from "motion/react";
+
 const Header = () => {
   return (
     <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
@@ -21,8 +22,7 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.3 }}
         className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo"
       >
-        Hi! I'm Gayasri Pethum
-        <Image src={assets.hand_icon} alt="header" className=" w-6" />
+        Hey there! 👋 I'm Nisal, a developer who loves coffee ☕ and clean code
       </motion.h3>
       <motion.h1
         initial={{ y: -30, opacity: 0 }}
@@ -30,7 +30,7 @@ const Header = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo"
       >
-        FullStack developer Based in Serendib.
+        FullStack developer Based in Ceylon.
       </motion.h1>
 
       <motion.p
@@ -39,8 +39,10 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-Ovo"
       >
-        Passionate about building scalable web applications and learning new
-        technologies.
+        Turning <span className="font-bold">ideas</span> into reality with
+        <span className="text-blue-400"> React</span>,
+        <span className="text-green-400"> Next.js</span>, and
+        <span className="text-yellow-400"> Node.js</span>.
       </motion.p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4 ">
         <motion.a
@@ -61,7 +63,7 @@ const Header = () => {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.2 }}
-          href="/sample-resume.pdf"
+          href="/Resume_NisalMallawaarachchi.pdf"
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
         >

@@ -31,10 +31,10 @@ const Work = ({isDarkMode}) => {
       <h2 className="text-center text-5xl font-Ovo ">
         My Latest Works
       </h2>
-      <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo ">
-        I specialize in creating dynamic and responsive web applications using
-        the latest technologies. My services include:
-      </p>
+      <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
+  Here’s a glimpse into some of my most meaningful work. From building sleek, responsive interfaces to solving complex backend logic, I bring ideas to life using modern web technologies. Each project reflects my dedication to quality, performance, and real-world impact.
+</p>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 my-10 gap-5 dark:text-black">
         {displayedProjects.map((project, index) => (
           <div
@@ -114,10 +114,16 @@ const Work = ({isDarkMode}) => {
             {/* Modal Body */}
             <div className="p-6">
               {/* Project Image */}
-              <div
-                className="w-full h-48 bg-cover bg-center rounded-lg mb-4"
-                style={{ backgroundImage: `url(${selectedProject.bgImage})` }}
-              ></div>
+              <div className="w-full mb-4 overflow-hidden rounded-lg">
+  <Image
+    src={selectedProject.bgImage}
+    alt={selectedProject.title}
+    width={1200}
+    height={628}
+    className="w-full h-auto object-cover rounded-lg"
+  />
+</div>
+
 
               {/* Project Info */}
               <div className="space-y-4">

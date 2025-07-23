@@ -17,6 +17,7 @@ import mail_icon from "./mail_icon.png";
 import mail_icon_dark from "./mail_icon_dark.png";
 import profile_img from "./profile-img.png";
 import download_icon from "./download-icon.png";
+import happy_icon from "./happy_icon.png";
 import hand_icon from "./hand-icon.png";
 import header_bg_color from "./header-bg-color.png";
 import moon_icon from "./moon_icon.png";
@@ -57,6 +58,7 @@ export const assets = {
   profile_img,
   download_icon,
   hand_icon,
+  happy_icon,
   header_bg_color,
   moon_icon,
   sun_icon,
@@ -111,8 +113,7 @@ export const workData = [
     title: "Javascript App",
     topic: "Forkify",
     bgImage: "/work-4.png",
-    description:
-      "This is a project made to learn the javascript.",
+    description: "This is a project made to learn the javascript.",
     skills: ["Javascript", "Html", "Css"],
     demo: "https://www.example.com",
     source: "https://github.com/Gayasri72/Forkify-recipe-app",
@@ -127,7 +128,7 @@ export const workData = [
     demo: "https://www.example.com",
     source: "https://github.com/Gayasri72/my-Portfolio.git",
   },
-   {
+  {
     title: "MERN Web App",
     topic: "BoardMe",
     bgImage: "/work-1.png",
@@ -137,7 +138,7 @@ export const workData = [
     demo: "https://www.example.com",
     source: "https://github.com/Gayasri72/BoardMe-Javascript.git",
   },
-   {
+  {
     title: "Authentication App",
     topic: "NeoNest",
     bgImage: "/work-1.png",
@@ -194,13 +195,14 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: "JavaScript, Java, Typescript,python",
+    description: "JavaScript(React, Node.js), Java, Python, PHP",
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "Undergraduate in Information Technology",
+    description: `BSc (Hons) in Information Technology
+- Specializing in Information Technology`,
   },
   {
     icon: assets.project_icon,
@@ -238,7 +240,7 @@ export const blogsData = [
     date: "2025-01-06",
     link: "https://medium.com/@gayasripethum1/data-structures-in-programming-9db2052c2f01",
   },
-   {
+  {
     title: "A high-level overview of javascript",
     description: "Exploring the new features introduced in JavaScript ES2023.",
     date: "2025-01-03",

@@ -80,26 +80,66 @@ export const assets = {
 
 export const workData = [
   {
+    title: "VeloPath",
+    topic: "Smart Bicycle Navigation & Hazard Intelligence System",
+    bgImage: "/work-2.png",
+    description:
+      "Research-driven intelligent bicycle navigation system focused on safety-aware routing and real-time hazard intelligence. Designed backend verification logic for crowdsourced hazard reports, incorporating reputation weighting and temporal confidence decay to maintain data reliability. Contributed to system architecture, API design, and hazard validation workflows within a multi-component research project. Led coordination across team members and ensured modular separation of research components for independent evaluation.",
+    skills: [
+      "System Design",
+      "Backend Architecture",
+      "Crowdsourced Data Verification",
+      "REST APIs",
+      "Machine Learning Integration",
+      "Python",
+      "MongoDB",
+      "Research & Evaluation",
+    ],
+    demo: "",
+    source:
+      "https://github.com/NisalMallawaarachchi/velopath-smart-bicycle-navigation-app",
+  },
+  {
+    title: "AI Expense Tracker",
+    topic: "AI-Powered Financial Analytics Platform",
+    bgImage: "/work-3.png",
+    description:
+      "AI-powered expense tracking web application built with Next.js 15 and a fully serverless architecture. Implemented secure authentication with Clerk and designed a real-time analytics dashboard with dynamic charts, dark/light mode support, and responsive UI. Integrated AI-driven expense categorization and financial insights using OpenRouter, enabling automated classification, spending trend analysis, and personalized recommendations. Focused on scalable data modeling, server actions, and production-ready deployment on Vercel.",
+    skills: [
+      "Next.js 15",
+      "TypeScript",
+      "Prisma",
+      "Neon PostgreSQL",
+      "Clerk Authentication",
+      "OpenRouter (AI)",
+      "Chart.js",
+      "Tailwind CSS",
+      "Vercel",
+    ],
+    demo: "https://your-ai-expense-tracker-demo-url",
+    source: "https://github.com/NisalMallawaarachchi/next-ai-expense-tracker",
+  },
+  {
     title: "Horizon Homes",
     topic: "Full-Stack Real Estate Platform",
     bgImage: "/work-1.png",
     description:
-      "Horizon Homes is a modern full-stack real estate web application built with the MERN stack. It streamlines property browsing and management with advanced search filters, Google OAuth integration, and a secure authentication system. Redux Toolkit is used for efficient state management, ensuring a smooth user experience across the platform. This project highlights my ability to develop scalable, responsive, and user-centric applications from scratch",
+      "Full-stack MERN real estate platform inspired by industry-grade property portals. Implemented secure JWT + Google OAuth authentication, protected routes, and role-based access control. Built advanced property search with optimized MongoDB queries (filters, sorting, pagination) and Redux Toolkit for scalable state management. Focused on backend architecture, data modeling, and production-ready API design",
     skills: [
-      "Node js",
-      "React",
+      "Node.js",
       "Express.js",
       "MongoDB",
+      "React",
       "Redux Toolkit",
-      "Firebase Auth",
+      "JWT Authentication",
       "Google OAuth",
       "Tailwind CSS",
       "Render",
     ],
+
     demo: "https://horizon-homes-0kuz.onrender.com/",
     source: "https://github.com/NisalMallawaarachchi/horizon-homes",
   },
-  
 ];
 
 export const serviceData = [
@@ -135,21 +175,23 @@ export const infoList = [
   {
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
-    title: "Languages",
-    description: "JavaScript(React, Node.js), Java, Python, PHP",
+    title: "Tech Stack",
+    description:
+      "JavaScript (Node.js, React), Java (Spring Boot), Python, PHP | MongoDB, MySQL, PostgreSQL",
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: `BSc (Hons) in Information Technology
-- Specializing in Information Technology`,
+    description:
+      "BSc (Hons) in Information Technology.\nSpecializing in Information Technology — SLIIT",
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
-    title: "Projects",
-    description: "Completed over 10+ projects",
+    title: "Experience & Projects",
+    description:
+      "Assistant Team Lead experience and 10+ real-world projects across web, backend, and automation",
   },
 ];
 
@@ -165,7 +207,7 @@ export const blogsData = [
   {
     title: "You Don’t Need to Be a Genius to Code",
     description:
-      "This article kicks off the 'Mind Over Syntax' series, breaking the myth that coding is only for the naturally gifted. I share my personal journey and how the right mindset—not talent—is the real key to becoming a developer.",
+      "Opening article of the 'Mind Over Syntax' series, challenging common myths around programming. Focuses on mindset, learning strategies, and practical growth paths for aspiring developers.",
     date: "2025-07-22",
     link: "https://nisal.hashnode.dev/series/mind-over-syntax",
   },

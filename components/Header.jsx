@@ -23,7 +23,8 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.3 }}
         className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo"
       >
-        Hey there! 👋 I’m Nisal. By day: full-stack developer. By night: open-source contributor & coffee enthusiast ☕.
+        Hey there! 👋 I’m Nisal. By day: full-stack developer. By night:
+        open-source contributor & coffee enthusiast ☕.
       </motion.h3>
       <motion.h1
         initial={{ y: -30, opacity: 0 }}
@@ -40,8 +41,9 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-Ovo"
       >
-        I design and build fast, responsive web apps that solve real
-        problems—with a focus on clean code and seamless user experiences.
+        Backend-focused Full-Stack Engineer specializing in scalable APIs,
+        system design, and AI-integrated applications. Promoted to Assistant
+        Team Lead through hands-on engineering ownership.
       </motion.p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4 ">
         <motion.a

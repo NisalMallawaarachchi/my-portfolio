@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 
 const About = ({ isDarkMode }) => {
   return (
-    <motion.div
+    <motion.section
       id="about"
       className="w-full px-[12%] py-10 scroll-my-20"
       initial={{ opacity: 0 }}
@@ -41,7 +41,7 @@ const About = ({ isDarkMode }) => {
         >
           <Image
             src={assets.user_image}
-            alt="User Image"
+            alt="Nisal Mallawaarachchi - Software Engineer portrait"
             className="w-full rounded-3xl"
           />
         </motion.div>
@@ -87,13 +87,13 @@ const About = ({ isDarkMode }) => {
                 key={index}
                 className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
               >
-                <Image src={tool} alt="tool" className="w-5 sm:w-7" />
+                <Image src={tool} alt={`Development tool ${index + 1}`} className="w-5 sm:w-7" />
               </li>
             ))}
           </ul>
         </div>
       </motion.div>
-    </motion.div>
+    </motion.section>
   );
 };
 

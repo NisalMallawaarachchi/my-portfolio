@@ -24,7 +24,7 @@ const Work = ({isDarkMode}) => {
   };
 
   return (
-    <div id="work" className="w-full px-[12%] py-10 scroll-my-20">
+    <section id="work" className="w-full px-[12%] py-10 scroll-my-20">
       <h4 className="text-center mb-2 text-lg font-Ovo ">
         My Portfolio
       </h4>
@@ -189,7 +189,7 @@ const Work = ({isDarkMode}) => {
           </div>
         </div>
       )}
-    </div>
+    </section>
   );
 };
 

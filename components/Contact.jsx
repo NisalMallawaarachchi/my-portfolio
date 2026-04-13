@@ -29,7 +29,7 @@ const Contact = () => {
   };
 
   return (
-    <div
+    <section
       id="contact"
       className='w-full px-[12%] py-10 scroll-my-20 bg-[url("/footer-bg-color.png")] bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none'
     >
@@ -76,7 +76,7 @@ const Contact = () => {
         </button>
         <p className="mt-4">{result}</p>
       </form>
-    </div>
+    </section>
   );
 };
 

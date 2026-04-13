@@ -3,7 +3,7 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div id="blog" className="w-full px-[12%] py-10 scroll-my-20">
+    <section id="blog" className="w-full px-[12%] py-10 scroll-my-20">
       <h4 className="text-center mb-2 text-lg font-Ovo">Want to learn</h4>
       <h2 className="text-center text-5xl font-Ovo">My Blogs</h2>
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
@@ -13,7 +13,7 @@ const Blog = () => {
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-10">
         {blogsData.map((blog, index) => (
-          <div
+          <article
             key={index}
             className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden border border-gray-200 dark:border-gray-700"
           >
@@ -48,7 +48,7 @@ const Blog = () => {
                 </svg>
               </a>
             </div>
-          </div>
+          </article>
         ))}
       </div>
       
@@ -59,7 +59,7 @@ const Blog = () => {
           </p>
         </div>
       )}
-    </div>
+    </section>
   );
 };
 

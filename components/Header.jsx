@@ -4,26 +4,26 @@ import { motion } from "motion/react";
 
 const Header = () => {
   return (
-    <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
-      <motion.divcan
-        you
+    <header id="top" className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
+      <motion.div
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
         transition={{ duration: 0.8, type: "spring", stiffness: 100 }}
       >
         <Image
           src={assets.profile_img}
-          alt="header"
+          alt="Nisal Mallawaarachchi - Full-Stack Developer"
           className="rounded-full w-32 mt-20"
+          priority
         />
-      </motion.divcan>
+      </motion.div>
       <motion.h3
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.3 }}
         className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo"
       >
-        Hey there! 👋 I’m Nisal. By day: full-stack developer. By night:
+        Hey there! 👋 I'm Nisal. By day: full-stack developer. By night:
         open-source contributor & coffee enthusiast ☕.
       </motion.h3>
       <motion.h1
@@ -56,7 +56,7 @@ const Header = () => {
           Contact Me{" "}
           <Image
             src={assets.right_arrow_white}
-            alt="arrow icon"
+            alt="Contact Nisal Mallawaarachchi"
             className=" w-4"
           />
         </motion.a>
@@ -71,12 +71,12 @@ const Header = () => {
           Download Resume{" "}
           <Image
             src={assets.download_icon}
-            alt="download icon"
+            alt="Download Nisal Mallawaarachchi resume"
             className=" w-4"
           />
         </motion.a>
       </div>
-    </div>
+    </header>
   );
 };
 

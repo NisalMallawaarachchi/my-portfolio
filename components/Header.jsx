@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 
 const Header = () => {
   return (
-    <header id="top" className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
+    <header id="top" className="w-11/12 max-w-3xl text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-4 pt-24">
       <motion.div
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
@@ -13,7 +13,7 @@ const Header = () => {
         <Image
           src={assets.profile_img}
           alt="Nisal Mallawaarachchi - Full-Stack Developer"
-          className="rounded-full w-32 mt-20"
+          className="rounded-full w-32"
           priority
         />
       </motion.div>

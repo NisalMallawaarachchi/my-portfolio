@@ -4,7 +4,7 @@ const JsonLd = () => {
     "@type": "Person",
     name: "Nisal Mallawaarachchi",
     url: "https://nisalmallawaarachchi.vercel.app",
-    image: "https://nisalmallawaarachchi.vercel.app/og-image.png",
+    image: "https://nisalmallawaarachchi.vercel.app/profile-photo.jpg",
     jobTitle: "Full-Stack Developer",
     description:
       "Backend-focused Full-Stack Engineer specializing in scalable APIs, system design, and AI-integrated applications. BSc (Hons) in Information Technology at SLIIT.",
